@@ -1,0 +1,23 @@
+.aikc-settings .aikc-api-keys {
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+.aikc-settings .aikc-api-keys th {
+    text-align: left;
+    padding: 6px 16px 6px 0;
+    vertical-align: top;
+    font-weight: 600;
+}
+
+.aikc-settings .aikc-api-keys td {
+    padding: 6px 0;
+}
+
+.aikc-settings select {
+    min-width: 260px;
+}
+
+.aikc-settings .description {
+    color: #646970;
+}

@@ -1,0 +1,16 @@
+.aikc-knowledge-manager .aikc-status-counts {
+    font-size: 14px;
+}
+
+.aikc-knowledge-manager table.widefat td {
+    vertical-align: top;
+}
+
+.aikc-knowledge-manager .aikc-error {
+    color: #b32d2e;
+    font-size: 12px;
+}
+
+.aikc-knowledge-manager .button-link.aikc-danger {
+    color: #b32d2e;
+}

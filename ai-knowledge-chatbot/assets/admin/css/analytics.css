@@ -1,0 +1,40 @@
+.aikc-analytics-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 16px 0;
+}
+
+.aikc-analytics-card {
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 6px;
+    padding: 14px 18px;
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.aikc-analytics-card-value {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.aikc-analytics-card-label {
+    font-size: 12px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.aikc-pagination {
+    margin-top: 10px;
+}
+
+.aikc-pagination a,
+.aikc-pagination strong {
+    display: inline-block;
+    padding: 4px 8px;
+}

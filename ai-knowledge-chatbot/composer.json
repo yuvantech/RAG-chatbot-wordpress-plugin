@@ -1,0 +1,36 @@
+{
+    "name": "your-company/ai-knowledge-chatbot",
+    "description": "AI chatbot that answers strictly from an approved WordPress knowledge base.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=8.2",
+        "ext-zip": "*",
+        "smalot/pdfparser": "^2.10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "squizlabs/php_codesniffer": "^3.9",
+        "wp-coding-standards/wpcs": "^3.1",
+        "phpcompatibility/phpcompatibility-wp": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "AIKnowledgeChatbot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AIKnowledgeChatbot\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "lint": "phpcs --standard=phpcs.xml.dist",
+        "test": "phpunit"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
