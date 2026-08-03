@@ -1,5 +1,5 @@
 === AI Knowledge Chatbot ===
-Contributors: yourcompany
+Contributors: yuvantech
 Tags: chatbot, ai, knowledge base, support, openai
 Requires at least: 6.0
 Tested up to: 6.6
